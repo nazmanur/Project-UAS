@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiMosque</title>
+    
+    <!-- bootstrap js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/font/fontawesome-baru/css/all.min.css">
+
+    <link rel="icon" href="assets/img/logoMasjid.png">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+
+<!-- preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img class="animation__shake" src="dist/img/logoMasjid.png" alt="DigiMosque" height="60" width="60">
+  </div>
+
+<!-- navbar -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+            <div class="custom-shape-divider-top-1674207023">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3C6255;">
+                <div class="container-fluid">
+                <img src="assets/img/logoMasjid.png" alt="logoMasjid" width="80em">
+                <h3 style="color: white; margin: 0.5em;"><b>DigiMosque</b></h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor02">
+                    <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">Beranda
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#news >Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="daftar-masjid.html">Daftar Masjid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil-masjid.html">Profil Masjid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="regis-masjid.html">Registrasi Masjid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=#ourteam >Our Team</a>
+                    </li>
+                    </ul>                
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Cari</button>
+                    </form>
+                    <div class="text-end">
+                            <a href="../backend/kelola-masjid.html"><i class="fa fa-user-edit mx-2" style="color: white; font-size: 20pt;"></i></a>
+                    </div>
+                </div>
+                </div>
+            </nav>
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+            </div>
+            </div>
+        </div>
+    </div>
+<!-- end navbar -->
+
+
+<!-- main content -->
+    <!-- opening -->   
+    <div class="container">
+        <div class="row" style="margin-top: 5em;">
+            <div class="col-12">
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                      <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="assets/img/vector2.png" alt="masjid">
+                      </div>
+                      <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">Ahlan Wa Sahlan!<br>Selamat datang di <span class="digi">DigiMosque</span></h1>
+                        <p class="lead"><b>DigiMosque</b> adalah sebuah platform website pendataan masjid yang bertujuan untuk mempermudah masyarakat dalam mencari lokasi masjid dan
+                            mengetahui kabar-kabar terbaru seputar aktivitas & event yang diselenggarakan oleh pihak DKM masjid yang ada di kota Depok.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                         <a href="login.html"><button type="button" class="btn btn-success btn-lg px-4 me-md-2" id="btnlogin" >Masuk</button></a>
+                          <a href="register.html"><button type="button" class="btn btn-outline-success btn-lg px-4 me-md-2" id="btnregis" >Daftar</button></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+  <!-- news -->
+  <div id="news">
+  <div class="container">
+        <div class="row" style="margin-top: 5em;">
+            <div class="col-12">
+				<h1 style="color:#3C6255; text-align: center; margin: 0.5em;">Berita Seputar Kegiatan Masjid di Depok</h1>
+				<div class="row p-4">
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" alt="Bootstrap Thumbnail First" src="assets/img/kubah-mas.jpg">
+							<div class="card-block p-2">
+								<h5 class="card-title">
+									Masjid Kubah Mas
+								</h5>
+								<p class="card-text">
+                <strong>TEMPO.CO </strong>- , Depok-Sehari setelah kepergian Dian Djuriah Rais binti Muhamad Rais atau Dian Al Mahri, suasana di sekitar makamnya masih ramai oleh para peziarah. Pendiri Masjid Kubah Emas itu dikebumikan di komplek masjid yang dibangunnya.
+								</p>
+								<a href="https://www.liputan6.com/regional/read/4579655/melihat-masjid-kubah-emas-masjid-mewah-penuh-balutan-emas" target="_blank">Detail</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" alt="Bootstrap Thumbnail Second" src="assets/img/at-Thohir-Depok.jpg" >
+							<div class="card-block p-2">
+								<h5 class="card-title">
+									Masjid At-Thohir
+								</h5>
+								<p class="card-text">
+                <strong> Jakarta </strong>- Sebuah masjid putih nan megah viral di TikTok karena di malam hari, masjid dihiasi video mapping yang indah.
+                Ramai di TikTok video masjid yang bertabur lampu warna-warni saat malam hari dan terlihat saat megah dan menawan.
+								</p>
+								<a href="https://www.liputan6.com/islami/read/4945174/potret-kemegahan-masjid-at-thohir-di-depok-penuh-filosofi-keluarga" target="_blank">Detail</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img class="card-img-top" alt="Bootstrap Thumbnail Third" src="assets/img/ilhami.jpg">
+							<div class="card-block p-2">
+								<h5 class="card-title">
+									Masjid Ilhami Sawangan 
+								</h5>
+								<p class="card-text">
+								 <strong>Depok (Kemenag)</strong> - Menag Lukman Hakim Saifuddin meresmikan Masjid Ilhami Sawangan yang berada di kawasan Kompleks Perumahan Villa Rizki Ilhami 2 Sawangan Depok,  Jabar, Jumat (25/09), Peresmian ditandai dengan penandatanganan prasasti.
+								</p>
+								<a href="https://kemenag.go.id/read/menag-resmikan-masjid-ilhami-sawangan-depok-yzor0" target="_blank">Detail</a>	
+            </div>
+        </div>
+  </div>
+  </div>
+
+  <!-- our team -->
+  <div id="ourteam">
+    <div class="container">
+        <div class="row" style="text-align: center; margin-top: 5em;">
+          <div class="col-12">
+            <h1 style="color: #3C6255;"><b>Let's Meet Our Team</b></h1>
+            <hr>
+          </div>
+            <div class="row my-3">
+              <div class="col-6 p-2" style="color: #294239;">
+                <img class="my-2" src="assets/img/fayiz.png" alt="fayiz" style="border: 7px solid #A6BB8D ;border-radius: 100%; width: 10em;">
+                <h2><b>Kemas.M.Fayiz</b></h2>
+                <h5 style="color: black;">Project Manager <br>Frontend</h5>
+              </div>
+              <div class="col-6 p-2" style="color: #294239;">
+                <img class="my-2" src="assets/img/faqih.png" alt="fayiz" style="border: 7px solid #A6BB8D ;border-radius: 100%; width: 10em;">
+                <h2><b>M.Nurfaqih.P</b></h2>
+                <h5 style="color: black;">Login & Register<br> Frontend</h5>
+              </div>
+            </div>
+            <div class="row my-3">
+              <div class="col-6 p-2" style="color: #294239;">
+                <img class="my-2" src="assets/img/nazma.png" alt="fayiz" style="border: 7px solid #A6BB8D ;border-radius: 100%; width: 10em;">
+                <h2><b>Nazma Nur Zahra</b></h2>
+                <h5 style="color: black;">Backend</h5>
+              </div>
+              <div class="col-6 p-2" style="color: #294239;">
+                <img class="my-2" src="assets/img/lulu2.png" alt="fayiz" style="border: 7px solid #A6BB8D ;border-radius: 100%; width: 10em;">
+                <h2><b>Lulu Wijayanti</b></h2>
+                <h5 style="color: black;">Frontend</h5>
+              </div>
+            </div>
+        </div><!-- /.row -->
+    </div>
+  </div>
+<!-- end main content -->
+
+<!-- Footer -->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted"><b>&copy; Kelompok 1 SI06. STT-NF</b></p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+  </footer>
+</div>
+<!-- End footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
